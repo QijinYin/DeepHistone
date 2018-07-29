@@ -51,7 +51,7 @@ def model_predict(regions,model,batchsize,dna_dict,dns_dict,label_dict,):
 
 def ROC(label,pred):
 	if len(np.unique(np.array(label).reshape(-1)))  == 1:
-		print("all the label are the same !")
+		print("all the labels are the same !")
 		return 0
 	else:
 		label = np.array(label).reshape(-1)
@@ -59,7 +59,7 @@ def ROC(label,pred):
 		return roc_auc_score(label,pred)
 def auPR(label,pred):
 	if len(np.unique(np.array(label).reshape(-1)))  == 1:
-		print("all the label are the same !")
+		print("all the labels are the same !")
 		return 0
 	else:
 		label = np.array(label).reshape(-1)
