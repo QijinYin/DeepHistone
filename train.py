@@ -49,7 +49,7 @@ for epoch in range(50):
 
 
 print('Begin predicting...')
-test_lab,test_pred = model_predict(test_index, model,batchsize,dna_dict,dns_dict,lab_dict,)	
+test_lab,test_pred = model_predict(test_index,best_ model,batchsize,dna_dict,dns_dict,lab_dict,)	
 test_auPR,test_roc= metrics(test_lab,test_pred,'Test')
 
 
