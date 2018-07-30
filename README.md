@@ -1,4 +1,3 @@
-
 # DeepHistone  
 
 DeepHistone is a deep learning method to discriminate whether a DNA fragment has modification of a certain histone marker, using DNA sequence and chromatin accessibility information.  
