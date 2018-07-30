@@ -12,7 +12,7 @@ DeepHistone is a deep learning method to discriminate whether a DNA fragment has
 
 # Installation  
 Download DeepHistone by:
-> git clone https://github.com/FreeAJust/DeepHistone 
+> git clone https://github.com/QijinYin/DeepHistone 
  
 Installation has been tested in a Linux platform with python 2.7/3.6 .  
 
